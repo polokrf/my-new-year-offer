@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
  /*
@@ -258,4 +259,112 @@
 
  .offer-img-div{
   margin-top: 48px;
+ }
+
+ /* *discount-section-style */
+
+ .discount-section{
+  
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+  
+ }
+ .discount-titel-card{
+  max-width: 1068px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 76px;
+ }
+ .discount-titel-card h4{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size:24px ;
+  margin-bottom: 16px;
+ }
+ .discount-titel-card h2{
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size:72px;
+  margin-bottom: 28px;
+ }
+ .discount-titel-card p{
+ 
+  font-size:20px;
+ 
+ }
+ .discount-titel-card span{
+ 
+  color: #FF0000;
+ 
+ }
+ .discount-banner-img{
+  width: 1320px;
+  height: 650px;
+  position: relative;
+  margin-top: 76px;
+ 
+ }
+ .discount1{
+  position: absolute;
+  top: 0;
+  right: 200px;
+ }
+ .discount3{
+  position: absolute;
+  bottom:0px;
+  
+ }
+ .discount2{
+  position: absolute;
+  bottom:0px;
+  z-index: 1;
+  
+ }
+ /* * portfolio-section-style */
+.portfolio-section{
+  margin-bottom: 100px;
+}
+ .portfolio-ttitel h6{
+  font-weight: 600;
+  font-size: 24px;
+  color: #FF0000;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+ }
+ .portfolio-ttitel h3{
+  font-weight: bold;
+  font-size: 48px;
+  
+  text-transform:capitalize;
+  margin-bottom: 10px;
+ }
+ .portfolio-ttitel p{
+  
+  font-size: 20px;
+  margin-bottom: 40px;
+  
+  
+ }
+ .portfolio-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+  
+ }
+ .protfolio-img{
+  flex-basis: 25%;
+
+ }
+ .portfolio-card img{
+  
+  
+  border-radius: 16px;
+  box-shadow: 0px 0px 5px red;
+  cursor: pointer;
+  transition: 1s;
+ 
+ }
+ .portfolio-card img:hover{
+  opacity: 0.4;
  }
